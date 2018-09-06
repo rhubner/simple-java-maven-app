@@ -40,6 +40,11 @@ public class AppTest
         }
     }
 
+    @Test
+    public void testWhichFail() {
+        assertTrue("this test must fail", false);
+    }
+
     @After
     public void cleanUpStreams() {
         System.setOut(null);
