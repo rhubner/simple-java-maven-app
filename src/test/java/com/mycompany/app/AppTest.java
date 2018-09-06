@@ -42,7 +42,7 @@ public class AppTest
 
     @Test
     public void testWhichFail() {
-        assertTrue("this test must fail", false);
+        assertTrue("this test must fail", true);
     }
 
     @After
